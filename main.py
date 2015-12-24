@@ -9,6 +9,7 @@ import math
 df_date = pd.read_csv('FOMC_Dates.csv')
 url = "http://www.federalreserve.gov"
 df_date['NLP']=0
+
 for i, filename in enumerate(df_date.url):
         if filename=='nan':
                 pass
